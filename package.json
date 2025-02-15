@@ -1,0 +1,24 @@
+{
+  "name": "gcp-cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vguerrapdel/gcp-cicd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vguerrapdel/gcp-cicd/issues"
+  },
+  "homepage": "https://github.com/vguerrapdel/gcp-cicd#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "path": "^0.12.7"
+  }
+}
