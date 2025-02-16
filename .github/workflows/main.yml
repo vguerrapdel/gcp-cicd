@@ -31,12 +31,12 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
           
-      - name: Build and push docker image
-        uses: docker/build-push-action@v2
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
         with:
           context: .
           push: true
-          tags: ghcr.io/developermartin/example-cicd-integration:${{ github.ref_name }}
+          tags: ghcr.io/vguerrapdel/gcp_github_docker_jenkins:latest
           
       - name: Build and push docker image
         uses: docker/build-push-action@v2
