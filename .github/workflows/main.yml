@@ -45,9 +45,9 @@ jobs:
           push: true
           tags: ghcr.io/vguerrapdel/gcp_github_docker_jenkins:latest
           
-      #- name: Run job in jenkins
-      #  run: |
-      #   curl -X POST -H "Content-type: application/json" "http://:8080/generic-webhook-trigger/invoke?token=12345"
+      - name: Run job in jenkins
+        run: |
+         curl -X POST -H "Content-type: application/json" "http://:8080/generic-webhook-trigger/invoke?token=12345"
 
 
 
